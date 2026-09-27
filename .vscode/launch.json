@@ -1,0 +1,47 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launcher",
+            "request": "launch",
+            "mainClass": "ir.ac.kntu.gui.Launcher",
+            "projectName": "project-1"
+        },
+        {
+            "type": "java",
+            "name": "Launcher",
+            "request": "launch",
+            "mainClass": "ir.ac.kntu.gui.Launcher",
+            "projectName": "template-project-1"
+        },
+        {
+            "type": "java",
+            "name": "MainApplication",
+            "request": "launch",
+            "mainClass": "ir.ac.kntu.gui.MainApplication",
+            "projectName": "template-project-1"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "ir.ac.kntu.cli.Main",
+            "projectName": "template-project-1"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "ir.ac.kntu.cli.Main",
+            "projectName": "project-1",
+            "console": "externalTerminal"
+        }
+    ]
+}

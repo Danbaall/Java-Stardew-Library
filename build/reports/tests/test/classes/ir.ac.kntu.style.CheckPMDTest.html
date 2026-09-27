@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - CheckPMDTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>CheckPMDTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/ir.ac.kntu.style.html">ir.ac.kntu.style</a> &gt; CheckPMDTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">1</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">22.139s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">0%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+<li>
+<a href="#tab2">Standard output</a>
+</li>
+<li>
+<a href="#tab3">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="testPMD()"></a>
+<h3 class="failures">testPMD()</h3>
+<span class="code">
+<pre>org.opentest4j.AssertionFailedError: 53 PMD rule violations found. ==&gt; expected: &lt;0&gt; but was: &lt;53&gt;
+	at app//org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at app//org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at app//org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:542)
+	at app//ir.ac.kntu.style.CheckPMDTest.testPMD(CheckPMDTest.java:47)
+	at java.base@21.0.2/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base@21.0.2/java.lang.reflect.Method.invoke(Method.java:580)
+	at app//org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:688)
+	at app//org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)
+	at app//org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at app//org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at app//org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at app//org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:210)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:206)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:131)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:65)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.base@21.0.2/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.base@21.0.2/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at app//org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at app//org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at app//org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
+	at app//org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:110)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:90)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:85)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:62)
+	at java.base@21.0.2/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base@21.0.2/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="failures">testPMD()</td>
+<td class="failures">22.139s</td>
+<td class="failures">failed</td>
+</tr>
+</table>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>src\main\java\ir\ac\kntu\gui\MainApplication.java:9:	AtLeastOneConstructor:	Each class should declare at least one constructor
+src\main\java\ir\ac\kntu\gui\components\ItemCard.java:37:	AvoidCatchingGenericException:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src\main\java\ir\ac\kntu\gui\components\ItemCard.java:56:	AvoidCatchingGenericException:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src\main\java\ir\ac\kntu\gui\SceneManager.java:67:	AvoidCatchingGenericException:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src\main\java\ir\ac\kntu\gui\components\NotificationBell.java:59:	NcssCount:	The method 'buildPopup()' has a NCSS line count of 31.
+src\main\java\ir\ac\kntu\gui\components\NotificationBell.java:152:	AvoidDuplicateLiterals:	The String literal &quot;dark-mode&quot; appears 4 times in this file; the first occurrence is on line 152
+src\main\java\ir\ac\kntu\gui\components\NotificationBell.java:159:	AvoidCatchingGenericException:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src\main\java\ir\ac\kntu\gui\components\NotificationBell.java:165:	ShortVariable:	Avoid variables with short names like x
+src\main\java\ir\ac\kntu\gui\components\NotificationBell.java:166:	ShortVariable:	Avoid variables with short names like y
+src\main\java\ir\ac\kntu\gui\components\NotificationBell.java:203:	ShortVariable:	Avoid variables with short names like n
+src\main\java\ir\ac\kntu\gui\views\AuthView.java:32:	NcssCount:	The method 'setupUI()' has a NCSS line count of 30.
+src\main\java\ir\ac\kntu\gui\views\AuthView.java:112:	AvoidDuplicateLiterals:	The String literal &quot;Professor&quot; appears 3 times in this file; the first occurrence is on line 112
+src\main\java\ir\ac\kntu\gui\views\AuthView.java:112:	AvoidDuplicateLiterals:	The String literal &quot;Student&quot; appears 3 times in this file; the first occurrence is on line 112
+src\main\java\ir\ac\kntu\gui\views\AuthView.java:177:	ControlStatementBraces:	This statement should have braces
+src\main\java\ir\ac\kntu\gui\views\AuthView.java:181:	ControlStatementBraces:	This statement should have braces
+src\main\java\ir\ac\kntu\gui\views\MainLayout.java:57:	CompareObjectsWithEquals:	Use equals() to compare object references.
+src\main\java\ir\ac\kntu\gui\views\MainLayout.java:59:	CompareObjectsWithEquals:	Use equals() to compare object references.
+src\main\java\ir\ac\kntu\gui\views\MainLayout.java:63:	CompareObjectsWithEquals:	Use equals() to compare object references.
+src\main\java\ir\ac\kntu\gui\views\MainLayout.java:65:	EmptyControlStatement:	Empty if statement
+src\main\java\ir\ac\kntu\gui\views\MainLayout.java:65:	CompareObjectsWithEquals:	Use equals() to compare object references.
+src\main\java\ir\ac\kntu\gui\views\MainLayout.java:109:	NcssCount:	The method 'createRightSidebar()' has a NCSS line count of 42.
+src\main\java\ir\ac\kntu\gui\views\MainLayout.java:119:	AvoidDuplicateLiterals:	The String literal &quot;sidebar-nav-btn&quot; appears 6 times in this file; the first occurrence is on line 119
+src\main\java\ir\ac\kntu\gui\views\MainLayout.java:169:	AvoidDuplicateLiterals:	The String literal &quot;dark-mode&quot; appears 3 times in this file; the first occurrence is on line 169
+src\main\java\ir\ac\kntu\gui\views\MyBorrowsView.java:106:	NcssCount:	The method 'updateItem(BorrowRecord, boolean)' has a NCSS line count of 32.
+src\main\java\ir\ac\kntu\gui\views\MyBorrowsView.java:122:	AvoidDuplicateLiterals:	The String literal &quot;borrow-row-label&quot; appears 3 times in this file; the first occurrence is on line 122
+src\main\java\ir\ac\kntu\gui\views\ProfileView.java:27:	NcssCount:	The method 'setupUI()' has a NCSS line count of 46.
+src\main\java\ir\ac\kntu\gui\views\ProfileView.java:105:	AvoidDuplicateLiterals:	The String literal &quot;Error: &quot; appears 4 times in this file; the first occurrence is on line 105
+src\main\java\ir\ac\kntu\gui\views\ItemDetailView.java:54:	NcssCount:	The method 'setupUI()' has a NCSS line count of 81.
+src\main\java\ir\ac\kntu\gui\views\ItemDetailView.java:72:	AvoidDuplicateLiterals:	The String literal &quot;item-detail-label&quot; appears 16 times in this file; the first occurrence is on line 72
+src\main\java\ir\ac\kntu\gui\views\ItemDetailView.java:125:	AvoidDuplicateLiterals:	The String literal &quot;-fx-font-size: 16px; -fx-font-weight: bold; -fx-padding: 12px 40px; &quot; appears 3 times in this file; the first occurrence is on line 125
+src\main\java\ir\ac\kntu\gui\views\ItemDetailView.java:163:	AvoidCatchingGenericException:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src\main\java\ir\ac\kntu\gui\views\ItemDetailView.java:169:	AvoidCatchingGenericException:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src\main\java\ir\ac\kntu\gui\views\ItemDetailView.java:196:	ControlStatementBraces:	This statement should have braces
+src\main\java\ir\ac\kntu\gui\views\ItemDetailView.java:215:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'alreadyBorrowed'
+src\main\java\ir\ac\kntu\gui\views\PublicCatalogView.java:113:	AvoidDuplicateLiterals:	The String literal &quot;dark-mode&quot; appears 3 times in this file; the first occurrence is on line 113
+src\main\java\ir\ac\kntu\gui\views\TicketChatView.java:36:	NcssCount:	The method 'setupUI()' has a NCSS line count of 35.
+src\main\java\ir\ac\kntu\gui\views\TicketChatView.java:87:	ControlStatementBraces:	This statement should have braces
+src\main\java\ir\ac\kntu\gui\views\TicketChatView.java:118:	ControlStatementBraces:	This statement should have braces
+src\main\java\ir\ac\kntu\gui\views\MyReservationsView.java:135:	AtLeastOneConstructor:	Each class should declare at least one constructor
+src\main\java\ir\ac\kntu\gui\views\MyReservationsView.java:137:	NcssCount:	The method 'updateItem(Reservation, boolean)' has a NCSS line count of 30.
+src\main\java\ir\ac\kntu\gui\views\MyReservationsView.java:152:	AvoidDuplicateLiterals:	The String literal &quot;borrow-row-label&quot; appears 3 times in this file; the first occurrence is on line 152
+src\main\java\ir\ac\kntu\gui\views\WalletView.java:26:	ControlStatementBraces:	This statement should have braces
+src\main\java\ir\ac\kntu\gui\views\WalletView.java:36:	NcssCount:	The method 'setupUI()' has a NCSS line count of 35.
+src\main\java\ir\ac\kntu\gui\views\WalletView.java:43:	AvoidDuplicateLiterals:	The String literal &quot;item-detail-label&quot; appears 3 times in this file; the first occurrence is on line 43
+src\main\java\ir\ac\kntu\gui\views\WalletView.java:131:	AtLeastOneConstructor:	Each class should declare at least one constructor
+src\main\java\ir\ac\kntu\gui\views\WalletView.java:151:	AvoidDuplicateLiterals:	The String literal &quot;borrow-row-label&quot; appears 3 times in this file; the first occurrence is on line 151
+src\main\java\ir\ac\kntu\gui\views\TicketListView.java:72:	NcssCount:	The method 'showNewTicketDialog()' has a NCSS line count of 30.
+src\main\java\ir\ac\kntu\gui\views\TicketListView.java:146:	AtLeastOneConstructor:	Each class should declare at least one constructor
+src\main\java\ir\ac\kntu\gui\views\TicketListView.java:161:	AvoidDuplicateLiterals:	The String literal &quot;borrow-row-label&quot; appears 4 times in this file; the first occurrence is on line 161
+src\main\java\ir\ac\kntu\repo\NotificationRepo.java:41:	ControlStatementBraces:	This statement should have braces
+src\main\java\ir\ac\kntu\services\NotificationService.java:75:	ShortVariable:	Avoid variables with short names like n
+src\main\java\ir\ac\kntu\services\NotificationService.java:92:	ShortVariable:	Avoid variables with short names like n
+src\main\java\ir\ac\kntu\util\AsyncExecutor.java:26:	AvoidCatchingGenericException:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+Found 53 PMD rule violations.
+</pre>
+</span>
+</div>
+<div id="tab3" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>Jul 29, 2026 11:42:34 PM net.sourceforge.pmd.RuleSetFactory parseRuleReferenceNode
+WARNING: Discontinue using Rule name category/java/codestyle.xml/DefaultPackage as it is scheduled for removal from PMD. PMD 7.0.0 will remove support for this Rule.
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.2</a> at Jul 29, 2026, 11:43:15 PM</p>
+</div>
+</div>
+</body>
+</html>

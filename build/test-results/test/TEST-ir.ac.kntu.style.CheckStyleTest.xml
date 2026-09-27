@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ir.ac.kntu.style.CheckStyleTest" tests="2" skipped="0" failures="2" errors="0" timestamp="2026-07-29T20:12:53" hostname="DANIS" time="20.349">
+  <properties/>
+  <testcase name="testCheckStyleIndentation()" classname="ir.ac.kntu.style.CheckStyleTest" time="17.095">
+    <failure message="org.opentest4j.AssertionFailedError: 44 check style errors found. Starting audit...&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Item.java:10:9: 'annotation array initialization' child has incorrect indentation level 8, expected level should be 4. [Indentation]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Item.java:11:9: 'annotation array initialization' child has incorrect indentation level 8, expected level should be 4. [Indentation]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Item.java:12:9: 'annotation array initialization' child has incorrect indentation level 8, expected level should be 4. [Indentation]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Item.java:13:9: 'annotation array initialization' child has incorrect indentation level 8, expected level should be 4. [Indentation]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:34:27: '{' at column 27 should have line break after. [LeftCurly]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:35:5: 'METHOD_DEF' should be separated from previous line. [EmptyLineSeparator]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:35:34: '{' at column 34 should have line break after. [LeftCurly]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:37:31: '{' at column 31 should have line break after. [LeftCurly]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:38:5: 'METHOD_DEF' should be separated from previous line. [EmptyLineSeparator]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:38:42: '{' at column 42 should have line break after. [LeftCurly]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:40:30: '{' at column 30 should have line break after. [LeftCurly]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:41:5: 'METHOD_DEF' should be separated from previous line. [EmptyLineSeparator]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:41:40: '{' at column 40 should have line break after. [LeftCurly]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:43:32: '{' at column 32 should have line break after. [LeftCurly]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:44:5: 'METHOD_DEF' should be separated from previous line. [EmptyLineSeparator]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:44:44: '{' at column 44 should have line break after. [LeftCurly]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:46:39: '{' at column 39 should have line break after. [LeftCurly]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:47:5: 'METHOD_DEF' should be separated from previous line. [EmptyLineSeparator]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:47:48: '{' at column 48 should have line break after. [LeftCurly]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:49:41: '{' at column 41 should have line break after. [LeftCurly]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:50:5: 'METHOD_DEF' should be separated from previous line. [EmptyLineSeparator]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:50:55: '{' at column 55 should have line break after. [LeftCurly]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:52:29: '{' at column 29 should have line break after. [LeftCurly]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:53:5: 'METHOD_DEF' should be separated from previous line. [EmptyLineSeparator]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:53:39: '{' at column 39 should have line break after. [LeftCurly]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:55:28: '{' at column 28 should have line break after. [LeftCurly]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:56:5: 'METHOD_DEF' should be separated from previous line. [EmptyLineSeparator]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:56:36: '{' at column 36 should have line break after. [LeftCurly]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\gui\SceneManager.java:93:23: '{' at column 23 should have line break after. [LeftCurly]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\gui\SceneManager.java:93:88: Only one statement per line allowed. [OneStatementPerLine]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\gui\views\AuthView.java:176:13: 'if' construct must use '{}'s. [NeedBraces]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\gui\views\AuthView.java:180:13: 'if' construct must use '{}'s. [NeedBraces]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\gui\views\ItemDetailView.java:54:5: Method setupUI length is 99 lines (max allowed is 50). [MethodLength]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\gui\views\ItemDetailView.java:195:9: 'if' construct must use '{}'s. [NeedBraces]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\gui\views\MainLayout.java:65:41: Must have at least one statement. [EmptyBlock]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\gui\views\MainLayout.java:109:5: Method createRightSidebar length is 57 lines (max allowed is 50). [MethodLength]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\gui\views\ProfileView.java:27:5: Method setupUI length is 61 lines (max allowed is 50). [MethodLength]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\gui\views\TicketChatView.java:86:9: 'if' construct must use '{}'s. [NeedBraces]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\gui\views\TicketChatView.java:117:9: 'if' construct must use '{}'s. [NeedBraces]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\gui\views\TicketListView.java:72:5: Method showNewTicketDialog length is 67 lines (max allowed is 50). [MethodLength]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\gui\views\WalletView.java:25:9: 'if' construct must use '{}'s. [NeedBraces]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\gui\views\WalletView.java:36:5: Method setupUI length is 55 lines (max allowed is 50). [MethodLength]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\repo\NotificationRepo.java:41:9: 'if' construct must use '{}'s. [NeedBraces]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\services\NotificationService.java:87:25: More than 4 parameters (found 5). [ParameterNumber]&#13;&#10;Audit done.&#13;&#10; ==&gt; expected: &lt;0&gt; but was: &lt;44&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: 44 check style errors found. Starting audit...
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Item.java:10:9: 'annotation array initialization' child has incorrect indentation level 8, expected level should be 4. [Indentation]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Item.java:11:9: 'annotation array initialization' child has incorrect indentation level 8, expected level should be 4. [Indentation]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Item.java:12:9: 'annotation array initialization' child has incorrect indentation level 8, expected level should be 4. [Indentation]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Item.java:13:9: 'annotation array initialization' child has incorrect indentation level 8, expected level should be 4. [Indentation]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:34:27: '{' at column 27 should have line break after. [LeftCurly]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:35:5: 'METHOD_DEF' should be separated from previous line. [EmptyLineSeparator]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:35:34: '{' at column 34 should have line break after. [LeftCurly]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:37:31: '{' at column 31 should have line break after. [LeftCurly]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:38:5: 'METHOD_DEF' should be separated from previous line. [EmptyLineSeparator]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:38:42: '{' at column 42 should have line break after. [LeftCurly]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:40:30: '{' at column 30 should have line break after. [LeftCurly]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:41:5: 'METHOD_DEF' should be separated from previous line. [EmptyLineSeparator]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:41:40: '{' at column 40 should have line break after. [LeftCurly]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:43:32: '{' at column 32 should have line break after. [LeftCurly]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:44:5: 'METHOD_DEF' should be separated from previous line. [EmptyLineSeparator]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:44:44: '{' at column 44 should have line break after. [LeftCurly]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:46:39: '{' at column 39 should have line break after. [LeftCurly]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:47:5: 'METHOD_DEF' should be separated from previous line. [EmptyLineSeparator]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:47:48: '{' at column 48 should have line break after. [LeftCurly]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:49:41: '{' at column 41 should have line break after. [LeftCurly]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:50:5: 'METHOD_DEF' should be separated from previous line. [EmptyLineSeparator]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:50:55: '{' at column 55 should have line break after. [LeftCurly]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:52:29: '{' at column 29 should have line break after. [LeftCurly]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:53:5: 'METHOD_DEF' should be separated from previous line. [EmptyLineSeparator]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:53:39: '{' at column 39 should have line break after. [LeftCurly]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:55:28: '{' at column 28 should have line break after. [LeftCurly]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:56:5: 'METHOD_DEF' should be separated from previous line. [EmptyLineSeparator]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:56:36: '{' at column 36 should have line break after. [LeftCurly]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\gui\SceneManager.java:93:23: '{' at column 23 should have line break after. [LeftCurly]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\gui\SceneManager.java:93:88: Only one statement per line allowed. [OneStatementPerLine]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\gui\views\AuthView.java:176:13: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\gui\views\AuthView.java:180:13: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\gui\views\ItemDetailView.java:54:5: Method setupUI length is 99 lines (max allowed is 50). [MethodLength]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\gui\views\ItemDetailView.java:195:9: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\gui\views\MainLayout.java:65:41: Must have at least one statement. [EmptyBlock]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\gui\views\MainLayout.java:109:5: Method createRightSidebar length is 57 lines (max allowed is 50). [MethodLength]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\gui\views\ProfileView.java:27:5: Method setupUI length is 61 lines (max allowed is 50). [MethodLength]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\gui\views\TicketChatView.java:86:9: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\gui\views\TicketChatView.java:117:9: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\gui\views\TicketListView.java:72:5: Method showNewTicketDialog length is 67 lines (max allowed is 50). [MethodLength]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\gui\views\WalletView.java:25:9: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\gui\views\WalletView.java:36:5: Method setupUI length is 55 lines (max allowed is 50). [MethodLength]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\repo\NotificationRepo.java:41:9: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\services\NotificationService.java:87:25: More than 4 parameters (found 5). [ParameterNumber]
+Audit done.
+ ==&gt; expected: &lt;0&gt; but was: &lt;44&gt;
+	at app//org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at app//org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at app//org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:542)
+	at app//ir.ac.kntu.style.CheckStyleTest.testCheckStyleIndentation(CheckStyleTest.java:73)
+	at java.base@21.0.2/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base@21.0.2/java.lang.reflect.Method.invoke(Method.java:580)
+	at app//org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:688)
+	at app//org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)
+	at app//org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at app//org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at app//org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at app//org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:210)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:206)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:131)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:65)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.base@21.0.2/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.base@21.0.2/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at app//org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at app//org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at app//org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
+	at app//org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:110)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:90)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:85)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:62)
+	at java.base@21.0.2/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base@21.0.2/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</failure>
+  </testcase>
+  <testcase name="testCheckStyleNaming()" classname="ir.ac.kntu.style.CheckStyleTest" time="3.227">
+    <failure message="org.opentest4j.AssertionFailedError: 44 check style errors found. Starting audit...&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Item.java:10:9: 'annotation array initialization' child has incorrect indentation level 8, expected level should be 4. [Indentation]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Item.java:11:9: 'annotation array initialization' child has incorrect indentation level 8, expected level should be 4. [Indentation]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Item.java:12:9: 'annotation array initialization' child has incorrect indentation level 8, expected level should be 4. [Indentation]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Item.java:13:9: 'annotation array initialization' child has incorrect indentation level 8, expected level should be 4. [Indentation]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:34:27: '{' at column 27 should have line break after. [LeftCurly]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:35:5: 'METHOD_DEF' should be separated from previous line. [EmptyLineSeparator]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:35:34: '{' at column 34 should have line break after. [LeftCurly]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:37:31: '{' at column 31 should have line break after. [LeftCurly]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:38:5: 'METHOD_DEF' should be separated from previous line. [EmptyLineSeparator]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:38:42: '{' at column 42 should have line break after. [LeftCurly]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:40:30: '{' at column 30 should have line break after. [LeftCurly]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:41:5: 'METHOD_DEF' should be separated from previous line. [EmptyLineSeparator]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:41:40: '{' at column 40 should have line break after. [LeftCurly]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:43:32: '{' at column 32 should have line break after. [LeftCurly]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:44:5: 'METHOD_DEF' should be separated from previous line. [EmptyLineSeparator]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:44:44: '{' at column 44 should have line break after. [LeftCurly]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:46:39: '{' at column 39 should have line break after. [LeftCurly]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:47:5: 'METHOD_DEF' should be separated from previous line. [EmptyLineSeparator]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:47:48: '{' at column 48 should have line break after. [LeftCurly]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:49:41: '{' at column 41 should have line break after. [LeftCurly]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:50:5: 'METHOD_DEF' should be separated from previous line. [EmptyLineSeparator]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:50:55: '{' at column 55 should have line break after. [LeftCurly]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:52:29: '{' at column 29 should have line break after. [LeftCurly]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:53:5: 'METHOD_DEF' should be separated from previous line. [EmptyLineSeparator]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:53:39: '{' at column 39 should have line break after. [LeftCurly]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:55:28: '{' at column 28 should have line break after. [LeftCurly]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:56:5: 'METHOD_DEF' should be separated from previous line. [EmptyLineSeparator]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:56:36: '{' at column 36 should have line break after. [LeftCurly]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\gui\SceneManager.java:93:23: '{' at column 23 should have line break after. [LeftCurly]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\gui\SceneManager.java:93:88: Only one statement per line allowed. [OneStatementPerLine]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\gui\views\AuthView.java:176:13: 'if' construct must use '{}'s. [NeedBraces]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\gui\views\AuthView.java:180:13: 'if' construct must use '{}'s. [NeedBraces]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\gui\views\ItemDetailView.java:54:5: Method setupUI length is 99 lines (max allowed is 50). [MethodLength]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\gui\views\ItemDetailView.java:195:9: 'if' construct must use '{}'s. [NeedBraces]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\gui\views\MainLayout.java:65:41: Must have at least one statement. [EmptyBlock]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\gui\views\MainLayout.java:109:5: Method createRightSidebar length is 57 lines (max allowed is 50). [MethodLength]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\gui\views\ProfileView.java:27:5: Method setupUI length is 61 lines (max allowed is 50). [MethodLength]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\gui\views\TicketChatView.java:86:9: 'if' construct must use '{}'s. [NeedBraces]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\gui\views\TicketChatView.java:117:9: 'if' construct must use '{}'s. [NeedBraces]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\gui\views\TicketListView.java:72:5: Method showNewTicketDialog length is 67 lines (max allowed is 50). [MethodLength]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\gui\views\WalletView.java:25:9: 'if' construct must use '{}'s. [NeedBraces]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\gui\views\WalletView.java:36:5: Method setupUI length is 55 lines (max allowed is 50). [MethodLength]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\repo\NotificationRepo.java:41:9: 'if' construct must use '{}'s. [NeedBraces]&#13;&#10;[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\services\NotificationService.java:87:25: More than 4 parameters (found 5). [ParameterNumber]&#13;&#10;Audit done.&#13;&#10; ==&gt; expected: &lt;0&gt; but was: &lt;44&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: 44 check style errors found. Starting audit...
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Item.java:10:9: 'annotation array initialization' child has incorrect indentation level 8, expected level should be 4. [Indentation]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Item.java:11:9: 'annotation array initialization' child has incorrect indentation level 8, expected level should be 4. [Indentation]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Item.java:12:9: 'annotation array initialization' child has incorrect indentation level 8, expected level should be 4. [Indentation]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Item.java:13:9: 'annotation array initialization' child has incorrect indentation level 8, expected level should be 4. [Indentation]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:34:27: '{' at column 27 should have line break after. [LeftCurly]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:35:5: 'METHOD_DEF' should be separated from previous line. [EmptyLineSeparator]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:35:34: '{' at column 34 should have line break after. [LeftCurly]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:37:31: '{' at column 31 should have line break after. [LeftCurly]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:38:5: 'METHOD_DEF' should be separated from previous line. [EmptyLineSeparator]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:38:42: '{' at column 42 should have line break after. [LeftCurly]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:40:30: '{' at column 30 should have line break after. [LeftCurly]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:41:5: 'METHOD_DEF' should be separated from previous line. [EmptyLineSeparator]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:41:40: '{' at column 40 should have line break after. [LeftCurly]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:43:32: '{' at column 32 should have line break after. [LeftCurly]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:44:5: 'METHOD_DEF' should be separated from previous line. [EmptyLineSeparator]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:44:44: '{' at column 44 should have line break after. [LeftCurly]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:46:39: '{' at column 39 should have line break after. [LeftCurly]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:47:5: 'METHOD_DEF' should be separated from previous line. [EmptyLineSeparator]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:47:48: '{' at column 48 should have line break after. [LeftCurly]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:49:41: '{' at column 41 should have line break after. [LeftCurly]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:50:5: 'METHOD_DEF' should be separated from previous line. [EmptyLineSeparator]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:50:55: '{' at column 55 should have line break after. [LeftCurly]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:52:29: '{' at column 29 should have line break after. [LeftCurly]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:53:5: 'METHOD_DEF' should be separated from previous line. [EmptyLineSeparator]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:53:39: '{' at column 39 should have line break after. [LeftCurly]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:55:28: '{' at column 28 should have line break after. [LeftCurly]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:56:5: 'METHOD_DEF' should be separated from previous line. [EmptyLineSeparator]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\entities\module\Notification.java:56:36: '{' at column 36 should have line break after. [LeftCurly]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\gui\SceneManager.java:93:23: '{' at column 23 should have line break after. [LeftCurly]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\gui\SceneManager.java:93:88: Only one statement per line allowed. [OneStatementPerLine]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\gui\views\AuthView.java:176:13: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\gui\views\AuthView.java:180:13: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\gui\views\ItemDetailView.java:54:5: Method setupUI length is 99 lines (max allowed is 50). [MethodLength]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\gui\views\ItemDetailView.java:195:9: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\gui\views\MainLayout.java:65:41: Must have at least one statement. [EmptyBlock]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\gui\views\MainLayout.java:109:5: Method createRightSidebar length is 57 lines (max allowed is 50). [MethodLength]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\gui\views\ProfileView.java:27:5: Method setupUI length is 61 lines (max allowed is 50). [MethodLength]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\gui\views\TicketChatView.java:86:9: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\gui\views\TicketChatView.java:117:9: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\gui\views\TicketListView.java:72:5: Method showNewTicketDialog length is 67 lines (max allowed is 50). [MethodLength]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\gui\views\WalletView.java:25:9: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\gui\views\WalletView.java:36:5: Method setupUI length is 55 lines (max allowed is 50). [MethodLength]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\repo\NotificationRepo.java:41:9: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] C:\Java\uniProject\project-1\src\main\java\ir\ac\kntu\services\NotificationService.java:87:25: More than 4 parameters (found 5). [ParameterNumber]
+Audit done.
+ ==&gt; expected: &lt;0&gt; but was: &lt;44&gt;
+	at app//org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at app//org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at app//org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:542)
+	at app//ir.ac.kntu.style.CheckStyleTest.testCheckStyleNaming(CheckStyleTest.java:124)
+	at java.base@21.0.2/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base@21.0.2/java.lang.reflect.Method.invoke(Method.java:580)
+	at app//org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:688)
+	at app//org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)
+	at app//org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at app//org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at app//org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at app//org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:210)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:206)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:131)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:65)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.base@21.0.2/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.base@21.0.2/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at app//org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at app//org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at app//org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
+	at app//org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:110)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:90)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:85)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:62)
+	at java.base@21.0.2/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base@21.0.2/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</failure>
+  </testcase>
+  <system-out><![CDATA[Root is set to "C:\Java\uniProject\project-1\src\main".
+Found 94 Java source files.
+Found 44 check style errors.
+Root is set to "C:\Java\uniProject\project-1\src\main".
+Found 94 Java source files.
+Found 44 check style errors.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
